@@ -20,6 +20,6 @@ class Testek(unittest.TestCase):
 class Testek2(unittest.TestCase):
     def test_nagyobb_nulla(self):
         nagyobb=int(abs_max(szam1,szam2))
-        self.assertGreater(nagyobb,99)
+        self.assertGreater(nagyobb,0)
 
 unittest.main()
