@@ -21,4 +21,4 @@ jobs:
 
       - name: Run Tests
         run: |
-          python app.py
+          python test gyakorlo 1.py
